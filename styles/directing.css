@@ -1,0 +1,37 @@
+body {
+    color: #777777;
+    background: linear-gradient(0deg, #a7e3eb, #d3ffb8); 
+}
+
+nav a {
+    color: #4e6eff;
+}
+
+.on {
+    text-decoration: #4e6eff wavy underline;
+}
+
+nav a:hover {
+    color: white;
+    text-shadow: 0 0 2.5px #fff, 0 0 10px #4e6eff, 0 0 15px #4e6eff, 0 0 20px #4e6eff, 0 0 25px #4e6eff, 0 0 30px #4e6eff, 0 0 35px #4e6eff;
+}
+
+.dropdown-content {
+    background-color: #d3ffb8;
+}
+
+.dropdown-content a {
+    color: rgb(104, 103, 103);
+}
+
+.photobox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    color: #4e6eff;
+}

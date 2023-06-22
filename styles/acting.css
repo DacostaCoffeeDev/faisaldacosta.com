@@ -1,0 +1,55 @@
+body {
+    color: #ffffff;
+    background: linear-gradient(180deg, #b59dc7, #ff8585);
+}
+
+nav a {
+    color: #ad3fad;
+}
+
+.on {
+    text-decoration: #ff4bff wavy underline;
+}
+
+nav a:hover {
+    color: white;
+    text-shadow: 0 0 2.5px #fff, 0 0 10px #ff4bff, 0 0 15px #ff4bff, 0 0 20px #ff4bff, 0 0 25px #ff4bff, 0 0 30px #ff4bff, 0 0 35px #ff4bff;
+}
+
+.dropdown-content {
+    background-color: #b59dc7;
+    color: white;
+}
+
+.list {
+    margin-left: 40px;
+}
+
+.iconbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.textbox {
+    display: flex;
+}
+
+.photobox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+footer {
+    color: #ad3fad;
+}

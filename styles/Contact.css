@@ -1,0 +1,54 @@
+body {
+    color: #ffffff;
+    background: linear-gradient(0deg, #a9ebb7, #cf94ff); 
+}
+
+nav a {
+    color: #4eff74;
+}
+
+.on {
+    text-decoration: #4eff74 wavy underline;
+}
+
+nav a:hover {
+    color: white;
+    text-shadow: 0 0 2.5px #fff, 0 0 10px #4eff74, 0 0 15px #4eff74, 0 0 20px #4eff74, 0 0 25px #4eff74, 0 0 30px #4eff74, 0 0 35px #4eff74;
+}
+
+.dropdown-content {
+    background-color: #cf94ff;
+    color: white;
+}
+
+main {
+    height: 1000px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.contactbox {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.insta {
+    display: flex;
+}
+
+.gmail {
+    margin-left: 10px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    
+}
+
+footer {
+    color: #4eff74;
+}

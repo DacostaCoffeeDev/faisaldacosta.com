@@ -1,0 +1,38 @@
+body {
+    color: #ffffff;
+    background: linear-gradient(0deg, #eb9d55, #b1d7e6);
+}
+
+nav a {
+    color: #dd8e17;
+}
+
+.on {
+    text-decoration:  #dd8e17 wavy underline;
+}
+
+nav a:hover {
+    color: white;
+    text-shadow: 0 0 2.5px #fff, 0 0 10px  #dd8e17, 0 0 15px  #dd8e17, 0 0 20px  #dd8e17, 0 0 25px  #dd8e17, 0 0 30px  #dd8e17, 0 0 35px  #dd8e17;
+}
+
+.dropdown-content {
+    background-color: #b1d7e6;
+    color: white;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.text {
+    max-width: 800px;
+}
+
+footer {
+    color: #dd8e17;
+}
