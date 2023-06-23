@@ -27,6 +27,7 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     column-gap: 20px;
+    flex-wrap: wrap;
 }
 
 p {
@@ -45,12 +46,17 @@ h1, h2 {
     justify-content: center;
     align-items: center;
     column-gap: 20px;
+    flex-wrap: wrap;
 }
 
 .text2 {
-    max-width: 2000px;
+    max-width: 930px;
 }
 
 footer {
     color: #a19db9;
+}
+
+.textbox {
+    max-width: 930px;
 }

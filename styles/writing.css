@@ -36,3 +36,9 @@ nav a:hover {
 footer {
     color: #dd8e17;
 }
+
+@media only screen and (max-width: 650px) {
+    .poster {
+        width: 300px;
+    }
+}
