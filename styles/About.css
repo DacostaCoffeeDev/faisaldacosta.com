@@ -2,6 +2,7 @@
 body {
     color: #ffffff;
     background: linear-gradient(180deg, #d4e2e0, #c7d9da, #bbd1d6, #b0c7d2, #a8becd, #a3b3c8, #a1a8c2, #a19db9); 
+    overflow-x: hidden;
 }
 
 nav a {
