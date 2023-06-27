@@ -40,5 +40,6 @@ footer {
 @media only screen and (max-width: 650px) {
     .poster {
         width: 300px;
+        height: 387.9px;
     }
 }
