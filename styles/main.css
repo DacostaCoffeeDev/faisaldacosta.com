@@ -9,8 +9,10 @@ body {
     font-family: 'Barlow', sans-serif;
     background-image: url("backgrounds/Blended\ Image\ Mockup\ 4.jpeg");
     background-position: center;
-    overflow-x: hidden;
-    
+}
+
+body, html {
+  overflow-x: hidden;
 }
 
 a {
